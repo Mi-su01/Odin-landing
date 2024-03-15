@@ -1,0 +1,148 @@
+body {
+  background-color: #1f2937;
+  /* position: relative; */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-overflow: none;
+  word-wrap: break-word;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* left: 30%; */
+  box-sizing: border-box;
+}
+
+#title {
+  color: white;
+  font-size: 24px;
+  /* position: relative; */
+  white-space: nowrap;
+  margin-top: -0.5%;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.main-subtext-boxleft {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 33%;
+}
+
+#main-text {
+  color: white;
+  font-size: 48px;
+}
+
+.header-link-container {
+  display: flex;
+  justify-content: space-between;
+  right: 0%;
+}
+
+.links-container {
+  display: flex;
+  gap: 10%;
+  height: fit-content;
+  width: 50%;
+}
+
+.text-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  /* height: 75%; */
+}
+
+#main-subtext {
+  color: white;
+}
+
+#link1,
+#link2,
+#link3 {
+  font-size: 18px;
+  box-sizing: border-box;
+  height: fit-content;
+  white-space: nowrap;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: green;
+}
+
+a,
+u {
+  text-decoration: none;
+}
+
+#top-signup {
+  background-color: #3882f6;
+  color: white;
+  box-sizing: border-box;
+  border-color: #3882f6;
+  border-radius: 20%;
+}
+
+#cat-image {
+  display: flex;
+  width: 50%;
+}
+
+.white-container {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #3882f6;
+  border-width: 5px;
+  padding: 20px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
