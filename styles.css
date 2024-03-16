@@ -1,13 +1,22 @@
 body {
   background-color: #1f2937;
-  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+p {
+  margin: 0%;
+  word-break: break-all;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  text-overflow: none;
+  /* text-overflow: none; */
   word-wrap: break-word;
   width: 80%;
   margin-left: 10%;
@@ -45,7 +54,7 @@ body {
 .header-link-container {
   display: flex;
   justify-content: space-between;
-  right: 0%;
+  padding: 10px;
 }
 
 .links-container {
@@ -111,38 +120,124 @@ u {
 
 .white-container {
   background-color: white;
+}
+
+.subcontainer {
+  /* display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  text-align: center; */
+  max-width: 1080px;
+  margin: 0 auto;
+  /* gap: 3%; */
   display: flex;
   flex-direction: column;
 }
 
-.subcontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 40%;
+.second-header {
+  font-size: 36px;
+  font-weight: 1000;
   text-align: center;
 }
 
 .cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
+  /* align-content: center;
+  justify-content: space-between; */
+  justify-content: center;
 }
 
 .card1,
 .card2,
 .card3,
 .card4 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 150px;
+  align-items: center;
+  text-align: center;
+}
+
+.card1-text,
+.card2-text,
+.card3-text,
+.card4-text {
   border-style: solid;
   border-radius: 5px;
   border-color: #3882f6;
-  border-width: 5px;
   padding: 20px;
-  width: 50px;
-  display: flex;
+  width: 100px;
   justify-content: center;
   align-items: center;
+  display: flex;
+  height: 100px;
+}
+
+.grey-container {
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotes {
+  display: flex;
+  width: 800px;
+  height: fit-content;
+  padding: 120px;
+  flex-direction: column;
+}
+
+.quote1 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#author1 {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.white-container2 {
+  background-color: white;
+  align-items: center;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-subcontainer {
+  display: flex;
+  border-radius: 10px;
+  background-color: #3882f6;
+  width: 1080px;
+  align-self: center;
+}
+
+.blue-subtext {
+  color: white;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#blue-line1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#blue-signup {
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #3882f6;
+  color: white;
 }
